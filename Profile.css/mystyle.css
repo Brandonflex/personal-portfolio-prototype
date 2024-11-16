@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(140, 107, 107);
+}
+/*header,
+:hover {
+transition-duration: 0.8s;
+background-color: rgb(235, 90, 90);
+}*/
+
+#name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-style:;*/
+}
+
+.card {
+    background-color: rgb(140, 118, 118);
+    box-shadow: 0 4px 15px 0 rgba(60, 17, 17, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(235, 90, 90);
+    transition-duration: 0.5s;
+}
+
+img {
+    box-shadow: black;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#institution {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(232, 112, 112);
+    background-color: #000;
+    text-align: center;
+    /*border-radius: 10px;*/
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+}
+
+button:hover,
+#link1:hover {
+    background-color: rgb(255, 255, 255);
+    stop-color: black;
+    transition-duration: 0.3s;
+    font-display: auto;
+    animation-name: stretch;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes stretch {
+    50% {
+        transform: scale(1.2);
+        border-radius: 7px;
+    }
+}
+
+#page-title {
+    font-style: italic;
+    text-decoration: underline;
+    font-family: cursive;
+    color: black;
+    align-self: center;
+}
+
+#page-title:hover {
+    color: rgb(250, 250, 250);
+    transition-duration: 0.8s;
+}
+
+#link1 {
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border-style: solid;
+    border-spacing: 30px;
+    border-radius: 7px;
+    animation: ease-in-out;
+    animation-duration: 5s;
+}
+
+#more {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(232, 112, 112);
+    text-decoration: none;
+}
